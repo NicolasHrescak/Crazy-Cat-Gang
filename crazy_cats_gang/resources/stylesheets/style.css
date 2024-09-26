@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Teko:wght@300..700&display=swap');
+
+.white-logo {
+  width: 70px;
+  height: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: lightyellow;
+  font-family: "Poppins";
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+  color: var(--color-primaria);
+}
+
+.navbar-brand {
+  font-family: "Faster One";
+  font-size: 30px;
+  color: #FFDD00;
+
+}
+
+.navbar-brand span {
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+.h1 {
+  font-family: "Teko";
+  color: #000000;
+  font-style: italic;
+}
+
+.h1 span {
+  color: #ffb300;
+}
+
+.card-title {
+  font-family: 'Teko';
+  font-size: 30px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+#processo .card-img-top {
+  height: 64px;
+  width: 64px;
+}
+
+.card-img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#map {
+  height: 400px;
+  width: 50%;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bota {
+  background-color: #FFDD00;
+  color: white;
+  border: solid 1px white;
+}
+
+.bota:hover {
+  background-color: white;
+  color: #FFDD00;
+}

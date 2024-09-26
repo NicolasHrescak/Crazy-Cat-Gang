@@ -1,0 +1,99 @@
+body {
+  background-color: lightyellow;
+  font-family: "Poppins";
+}
+
+title {
+  color: #FFDD00;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: lightyellow;
+  font-family: "Poppins";
+}
+
+.header {
+  background-color: rgb(0, 0, 0);
+  color: var(--color-primaria);
+}
+
+.navbar-brand {
+  font-family: "Faster One";
+  font-size: 30px;
+  color: #FFDD00;
+
+}
+
+.navbar-brand span {
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.centro {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.questionario {
+  background-color: #fdfdb4;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pergunta {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.pergunta label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.pergunta input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.pergunta input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4e9ef4;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

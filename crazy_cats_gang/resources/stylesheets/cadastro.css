@@ -1,0 +1,126 @@
+h1,
+h2 {
+  color: #343a40;
+  text-align: center;
+  font-family: "Teko";
+  color: #000000;
+}
+
+#add-cat-form {
+  background: #fff;
+  padding: 20px;
+  max-width: 500px;
+  max-height: 50%;
+  margin: 40px auto;
+  margin-bottom: 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 50px;
+  position: relative;
+  bottom: 10px;
+}
+
+.background-orange {
+  background-color: #fcbc1d;
+  /* Orange-yellowish color */
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#container {
+  align-content: space-evenly !important;
+}
+
+.gato-jaqueta {
+  height: 400px;
+  width: 400px;
+}
+
+
+#add-cat-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#add-cat-form input {
+  width: 100%;
+  height: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #5C6BC0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3F51B5;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.edit-btn,
+.remove-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-btn {
+  background-color: #5C6BC0;
+  color: white;
+}
+
+.remove-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex div,
+#email {
+  margin: 0 10px;
+}
+
+#email input {
+  position: relative;
+  right: 10px
+}
